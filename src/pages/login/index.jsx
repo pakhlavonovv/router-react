@@ -38,7 +38,7 @@ const Index = () => {
           outline: "none",
         }} />
       <label htmlFor="password">Password</label>
-      <input type="password" placeholder="Password" name    ="password" onChange={handleChange} style={{
+      <input type="password" placeholder="Password" name="password" onChange={handleChange} style={{
           border: isError ? "2px solid red" : "2px solid #ccc",
           padding: "10px",
           borderRadius: "5px",
